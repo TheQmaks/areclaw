@@ -1,0 +1,36 @@
+# Tools (downloaded by install.py, ~2GB)
+tools/
+
+# Workspace data
+workspace/samples/*.apk
+workspace/output/*
+workspace/reports/*
+workspace/credentials/*
+workspace/traffic/*
+workspace/patches/*
+workspace/collections/*
+!workspace/**/.gitkeep
+
+# State files
+.tool_versions.json
+.tema_state.json
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+
+# Caches
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# JVM crash dumps
+hs_err_pid*.log
+replay_pid*.log
+
+# OS
+Thumbs.db
+.DS_Store
