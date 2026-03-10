@@ -147,6 +147,13 @@ tools/il2cppdumper/Il2CppDumper.exe workspace/output/lib/arm64-v8a/libil2cpp.so 
 mitmproxy2swagger -i workspace/traffic/capture.flow -o workspace/collections/api.yaml -p https://api.example.com --examples
 ```
 
+## Security Framework References
+| Document | Path |
+|----------|------|
+| OWASP M1–M10 Checklist | `docs/references/owasp-checklist.md` |
+| MASTG Test Case Mapping | `docs/references/mastg-mapping.md` |
+| MITRE ATT&CK Coverage | `docs/references/mitre-attack-mapping.md` |
+
 ## Rules
 - Reports go to `workspace/reports/<pkg>-<YYYY-MM-DD>.md`
 - Credentials go to `workspace/credentials/<pkg>.json`
