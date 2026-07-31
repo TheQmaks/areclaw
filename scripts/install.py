@@ -179,7 +179,7 @@ NARUMII = {
 }
 
 # Maven portable URL (needed to build narumii from source)
-MAVEN_VERSION = "3.9.12"
+MAVEN_VERSION = "3.9.16"
 MAVEN_URL = f"https://dlcdn.apache.org/maven/maven-3/{MAVEN_VERSION}/binaries/apache-maven-{MAVEN_VERSION}-bin.zip"
 
 # ── phantom-frida (downloaded from own releases) ─────
